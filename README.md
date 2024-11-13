@@ -15,6 +15,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#4 - Programando Ponteiros](https://www.youtube.com/watch?v=UIYnNcEb8Oc)
   - [#5 - Tamanhos dos tipos de dados](https://www.youtube.com/watch?v=F3YnOQw7v9s)
   - [#6 - Ponteiro de Ponteiros](https://www.youtube.com/watch?v=4WX9pE2liPs)
+  - [#7 - Mão na massa: Ponteiro de Ponteiros](https://www.youtube.com/watch?v=HOYSSCebd1g)
 
 ## Arquivos
 
@@ -25,3 +26,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#4 - Programando Ponteiros](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/ponteiros)
   - [#5 - Tamanhos dos tipos de dados](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/ponteiros)
   - [#6 - Ponteiro de Ponteiros](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/ponteiros)
+  - [#7 - Mão na massa: Ponteiro de Ponteiros](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/ponteiros)
