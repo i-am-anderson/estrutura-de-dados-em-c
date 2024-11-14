@@ -23,6 +23,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 
 - **Funções**
   - [#9 - Funções - Passagem por Valor](https://www.youtube.com/watch?v=Q5SaM35EJcg)
+  - [#10 - Funções - Codificando Funções](https://www.youtube.com/watch?v=4Xy5Y411_lA)
 
 
 ## Arquivos
@@ -41,3 +42,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 
 - **Funções**
   - [#9 - Funções - Passagem por Valor](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
+  - [#10 - Funções - Codificando Funções](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
