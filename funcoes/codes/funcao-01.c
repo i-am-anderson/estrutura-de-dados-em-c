@@ -20,9 +20,9 @@ int sum(int x, int y) {
   int z = x + y;
 
   puts("==> DENTRO DA FUNCAO <==");
-  printf("&x = %p, x = %d\n", &x, x);
-  printf("&y = %p, y = %d\n", &y, y);
-  printf("&z = %p, z = %d\n\n", &z, z);
+  printf("&x = %p, x = %d\n", &x, x);     // &x = 0x7ffd2e7e1e0c, x = 10
+  printf("&y = %p, y = %d\n", &y, y);     // &y = 0x7ffd2e7e1e08, y = 20
+  printf("&z = %p, z = %d\n\n", &z, z);   // &z = 0x7ffd2e7e1e14, z = 30
 
   // Uma função em C, retorna apenas um valor
   return z;
@@ -40,16 +40,16 @@ int main() {
   int c;
 
   puts("### ANTES DE CHAMAR A FUNCAO");
-  printf("&a = %p, a = %d\n", &a, a);
-  printf("&b = %p, b = %d\n", &b, b);
-  printf("&c = %p, c = %d\n\n", &c, c);
+  printf("&a = %p, a = %d\n", &a, a);     // &a = 0x7ffd2e7e1e3c, a = 10
+  printf("&b = %p, b = %d\n", &b, b);     // &b = 0x7ffd2e7e1e40, b = 20
+  printf("&c = %p, c = %d\n\n", &c, c);   // &c = 0x7ffd2e7e1e44, c = 0
 
   c = sum(a, b);
 
   puts("### DEPOIS DE CHAMAR A FUNCAO");
-  printf("&a = %p, a = %d\n", &a, a);
-  printf("&b = %p, b = %d\n", &b, b);
-  printf("&c = %p, c = %d\n\n", &c, c);
+  printf("&a = %p, a = %d\n", &a, a);     // &a = 0x7ffd2e7e1e3c, a = 10
+  printf("&b = %p, b = %d\n", &b, b);     // &b = 0x7ffd2e7e1e40, b = 20
+  printf("&c = %p, c = %d\n\n", &c, c);   // &c = 0x7ffd2e7e1e44, c = 30
 
   return 0;
 }
