@@ -6,6 +6,7 @@
 gcc arquivo.c -o build/arquivo && build/arquivo
 ```
 
+
 ## Vídeos
 
 - **Variáveis e Memória**
@@ -20,6 +21,10 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#7 - Mão na massa: Ponteiro de Ponteiros](https://www.youtube.com/watch?v=HOYSSCebd1g)
   - [#8 - Ponteiros: Exercícios](https://www.youtube.com/watch?v=t1kQRygSOu4)
 
+- **Funções**
+  - [#9 - Funções - Passagem por Valor](https://www.youtube.com/watch?v=Q5SaM35EJcg)
+
+
 ## Arquivos
 
 - **Variáveis e Memória**
@@ -33,3 +38,6 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#6 - Ponteiro de Ponteiros](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/ponteiros)
   - [#7 - Mão na massa: Ponteiro de Ponteiros](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/ponteiros)
   - [#8 - Ponteiros: Exercícios](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/ponteiros)
+
+- **Funções**
+  - [#9 - Funções - Passagem por Valor](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
