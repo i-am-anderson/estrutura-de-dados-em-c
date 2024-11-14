@@ -25,6 +25,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#9   - Funções - Passagem por Valor](https://www.youtube.com/watch?v=Q5SaM35EJcg)
   - [#10  - Funções - Codificando Funções](https://www.youtube.com/watch?v=4Xy5Y411_lA)
   - [#11  - Funções - Passagem por Referência](https://www.youtube.com/watch?v=G2oBB0sYAr0)
+  - [#12  - Funções - Exercícios](https://www.youtube.com/watch?v=u9R-PuQdTys)
 
 
 ## Arquivos
@@ -45,3 +46,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#9   - Funções - Passagem por Valor](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
   - [#10  - Funções - Codificando Funções](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
   - [#11  - Funções - Passagem por Referência](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
+  - [#12  - Funções - Exercícios](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
