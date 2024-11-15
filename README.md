@@ -20,6 +20,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#6   - Ponteiro de Ponteiros](https://www.youtube.com/watch?v=4WX9pE2liPs)
   - [#7   - Mão na massa: Ponteiro de Ponteiros](https://www.youtube.com/watch?v=HOYSSCebd1g)
   - [#8   - Ponteiros: Exercícios](https://www.youtube.com/watch?v=t1kQRygSOu4)
+  - [#8   - Ponteiros: Exercícios](https://www.youtube.com/watch?v=t1kQRygSOu4)
 
 - **Funções**
   - [#9   - Funções - Passagem por Valor](https://www.youtube.com/watch?v=Q5SaM35EJcg)
@@ -27,6 +28,10 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#11  - Funções - Passagem por Referência](https://www.youtube.com/watch?v=G2oBB0sYAr0)
   - [#12  - Funções - Exercícios](https://www.youtube.com/watch?v=u9R-PuQdTys)
 
+- **Vetores e Tipos de Alocação**
+  - [#13  - Vetores Estáticos](https://www.youtube.com/watch?v=eVr_Pky11T8)
+
+---
 
 ## Arquivos
 
@@ -47,3 +52,6 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#10  - Funções - Codificando Funções](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
   - [#11  - Funções - Passagem por Referência](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
   - [#12  - Funções - Exercícios](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/funcoes)
+
+- **Vetores e Tipos de Alocação**
+  - [#13  - Vetores Estáticos](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
