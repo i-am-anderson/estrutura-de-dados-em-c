@@ -30,6 +30,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 - **Vetores e Tipos de Alocação**
   - [#13  - Vetores Estáticos](https://www.youtube.com/watch?v=eVr_Pky11T8)
   - [#14  - Vetores e Aritmética de Ponteiros](https://www.youtube.com/watch?v=nkU9biXjsB8)
+  - [#15  - Tipos de Alocação de Memória](https://www.youtube.com/watch?v=uZUyBZEdfGQ)
 
 ---
 
@@ -56,3 +57,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 - **Vetores e Tipos de Alocação**
   - [#13  - Vetores Estáticos](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
   - [#14  - Vetores e Aritmética de Ponteiros](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
+  - [#15  - Tipos de Alocação de Memória](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
