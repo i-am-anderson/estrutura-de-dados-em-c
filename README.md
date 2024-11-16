@@ -1,6 +1,6 @@
 # Dominando Estruturas de Dados 1
 
-![C Language](./images/c-lang.svg)
+<img src="./images/c-lang.svg" alt="C-Lang" width="150" height="150"/>
 
 ## Compilando
 
