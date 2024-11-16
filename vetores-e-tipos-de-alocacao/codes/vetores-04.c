@@ -19,14 +19,13 @@ int main() {
 	puts("### VETORES ESTÁTICOS");
 	printf("&v_stack = %p, v_stack = %p\n\n", &v_stack, v_stack);	// &v_stack = 0x7ffe698c63f0, v_stack = 0x7ffe698c63f0
 
-	for(int i = 0; i < 5; i++) {
+	for(int i = 0; i < 5; i++)
 		printf("&v_stack[%d] = %p, v_stack[%d] = %d\n", i, &v_stack[i], i, v_stack[i]);	 // .............................................
 																																														// &v_stack[0] = 0x7ffe698c63f0, v_stack[0] = 0
 																																														// &v_stack[1] = 0x7ffe698c63f4, v_stack[1] = 10
 																																														// &v_stack[2] = 0x7ffe698c63f8, v_stack[2] = 20
 																																														// &v_stack[3] = 0x7ffe698c63fc, v_stack[3] = 30
 																																														// &v_stack[4] = 0x7ffe698c6400, v_stack[4] = 40
-	}
 	puts("\n");
 
 	// B. Alocação Dinâmica:
@@ -55,39 +54,45 @@ int main() {
 	// • Assim, o tamanho de memória necessário é determinado conforme necessidade;
 	// • Dessa forma evita-se o desperdício de memória;
 
+	// para v[3]:
+	// NA ALOCAÇÃO ESTÁTICA &v = v = &v[0]	<=> tudo está na STACK
+	// NA ALOCAÇÂO DINÂMICA &v != v 	<=>	 v = &v[0] 	<=>	v está na STACK e v[0] está na HEAP; só consegue acessar a HEAP através de ponteiros
+
+	// EXEMPLO CALLOC: int *v = (int *) calloc(5, sizeof(int)) ............
+	// |--------STACK---------| |------------------HEAP-------------------|
+	//   0x100   0x108          0x200  0x204  0x208  0x212  0x216  0x220    <- Endereços de Memória 
+	// [ 0x200 ][ ### ][ ... ] [  0  ][  0  ][  0  ][  0  ][  0  ][ ... ]   <- Conteúdo
+	//     v                    v[0]   v[1]   v[2]   v[3]   v[4]            <- Variáveis
+
 	// Alocação de um vetor dinâmico usando MALLOC (memória HEAP)
 	int *v_heap_malloc = (int *) malloc(5 * sizeof(int));	// todos os elementos possuem lixo de memória
 	
-	puts("### VETOR DINAMICO COM MALLOC");
-	
+	puts("### VETORES DINÂMICOS COM MALLOC");
 	printf("&v_heap_malloc = %p, v_heap_malloc = %p\n\n", &v_heap_malloc, v_heap_malloc);		// &v_heap_malloc = 0x7ffe698c63e0, v_heap_malloc = 0x6405216f96b0
 
-	for(int i = 0; i < 5; i++) {
+	for(int i = 0; i < 5; i++)
 		printf("&v_heap_malloc[%d] = %p, v_heap_malloc[%d] = %d\n", i, &v_heap_malloc[i], i, v_heap_malloc[i]);	// ................................................
 																																																						// &v_heap_malloc[0] = 0x6405216f96b0, v_heap_malloc[0] = 0
 																																																						// &v_heap_malloc[1] = 0x6405216f96b4, v_heap_malloc[1] = 0
 																																																						// &v_heap_malloc[2] = 0x6405216f96b8, v_heap_malloc[2] = 0
 																																																						// &v_heap_malloc[3] = 0x6405216f96bc, v_heap_malloc[3] = 0
 																																																						// &v_heap_malloc[4] = 0x6405216f96c0, v_heap_malloc[4] = 0
-	}
 	puts("\n");
 
 
 	// Alocação de um vetor dinâmico usando calloc (memória HEAP)
 	int *v_heap_calloc = (int *) calloc(5, sizeof(int));	// todos os elementos são zerados
 	
-	puts("### VETOR DINAMICO COM CALLOC");
-	
+	puts("### VETORES DINÂMICOS COM CALLOC");
 	printf("&v_heap_calloc = %p, v_heap_calloc = %p\n\n", &v_heap_calloc, v_heap_calloc);	// &v_heap_calloc = 0x7ffe698c63e8, v_heap_calloc = 0x6405216f96d0
 
-	for(int i = 0; i < 5; i++) {
+	for(int i = 0; i < 5; i++) 
 		printf("&v_heap_calloc[%d] = %p, v_heap_calloc[%d] = %d\n", i, &v_heap_calloc[i], i, v_heap_calloc[i]);	// ...............................................
 																																																					// &v_heap_calloc[0] = 0x6405216f96d0, v_heap_calloc[0] = 0
 																																																					// &v_heap_calloc[1] = 0x6405216f96d4, v_heap_calloc[1] = 0
 																																																					// &v_heap_calloc[2] = 0x6405216f96d8, v_heap_calloc[2] = 0
 																																																					// &v_heap_calloc[3] = 0x6405216f96dc, v_heap_calloc[3] = 0
 																																																					// &v_heap_calloc[4] = 0x6405216f96e0, v_heap_calloc[4] = 0
-	}
 	puts("\n");
 
 	// Não estamos desalocando os vetores dinâmicos (free)
