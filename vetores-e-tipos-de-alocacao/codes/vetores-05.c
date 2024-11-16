@@ -32,6 +32,29 @@ void print_vector(const int *v, int n) {
   puts("\n");
 }
 
+// Função para desalocar endereços de memória
+
+// Dessa forma não funciona, pois dentro da função está desalocando o ponteiro
+// do argumento da função o v_heap não foi desalocado e nem é NULL void
+// deallocate_vector(int *v) {
+//   free(v);
+//   v = NULL;
+// }
+
+void deallocate_vector(int **v) {
+  free(*v);
+  *v = NULL;
+}
+
+// ou...
+
+void deallocate_vector_other(int **v) {
+  int *aux = *v;
+
+  free(aux);
+  *v = NULL;
+}
+
 int main() {
   // Vetor Estático .................................................
   int v_stack[5] = {0, 10, 20, 30, 40};
@@ -50,7 +73,6 @@ int main() {
                                   &v[2] = 0x7ffea4296c48, v[2] = 29
                                   &v[3] = 0x7ffea4296c4c, v[3] = 39
                                   &v[4] = 0x7ffea4296c50, v[4] = 49 */
-
 
   // Vetor Dinâmico ..................................................
   puts("### VETORES DINÂMICOS\n");
@@ -74,8 +96,14 @@ int main() {
                                 &v[4] = 0x5886118036c0, v[4] = 46 */
 
   // Desalocar vetor dinâmico
-  free(v_heap);
-  v_heap = NULL;
+  puts("ANTES da função de desalocar vetor dinâmico ==>");
+  printf("&v_heap = %p, v_heap = %p\n\n", &v_heap, v_heap);
+
+  // deallocate_vector(v_heap);
+  deallocate_vector(&v_heap);
+
+  puts("<== DEPOIS da função de desalocar vetor dinâmico");
+  printf("&v_heap = %p, v_heap = %p\n", &v_heap, v_heap);
 
   return 0;
 }
