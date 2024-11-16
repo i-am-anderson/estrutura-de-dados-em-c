@@ -32,6 +32,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#14  - Vetores e Aritmética de Ponteiros](https://www.youtube.com/watch?v=nkU9biXjsB8)
   - [#15  - Tipos de Alocação de Memória](https://www.youtube.com/watch?v=uZUyBZEdfGQ)
   - [#16  - Alocação Dinâmica na Prática](https://www.youtube.com/watch?v=XNmdbPz75C0)
+  - [#17  - Vetores - Exemplos Práticos](https://www.youtube.com/watch?v=E08YxaAICmY)
 
 ---
 
@@ -60,3 +61,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#14  - Vetores e Aritmética de Ponteiros](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
   - [#15  - Tipos de Alocação de Memória](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
   - [#16  - Alocação Dinâmica na Prática](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
+  - [#17  - Vetores - Exemplos Práticos](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
