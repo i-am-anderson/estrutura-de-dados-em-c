@@ -36,6 +36,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#16  - Alocação Dinâmica na Prática](https://www.youtube.com/watch?v=XNmdbPz75C0)
   - [#17  - Vetores - Exemplos Práticos](https://www.youtube.com/watch?v=E08YxaAICmY)
   - [#18  - Função para Desalocar Vetores Dinâmicos](https://www.youtube.com/watch?v=wvmvl-vHbTo)
+  - [#19  - Vetores - Mais Exercícios](https://www.youtube.com/watch?v=-ePB6hbGdiM)
 
 ---
 
@@ -66,3 +67,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#16  - Alocação Dinâmica na Prática](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
   - [#17  - Vetores - Exemplos Práticos](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
   - [#18  - Função para Desalocar Vetores Dinâmicos](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
+  - [#19  - Vetores - Mais Exercícios](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
