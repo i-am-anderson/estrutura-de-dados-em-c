@@ -41,6 +41,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 - **Matriz**
   - [#20  - Matrizes Estáticas](https://www.youtube.com/watch?v=vTU2Fw5ViZ0)
   - [#21  - Matrizes Dinâmicas](https://www.youtube.com/watch?v=gSVtw4UbsGk)
+  - [#22  - Matrizes 3D](https://www.youtube.com/watch?v=omIcgYLbzFI)
 
 ---
 
@@ -76,3 +77,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 - **Matrizes**
   - [#20  - Matrizes Estáticas](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/matriz)
   - [#21  - Matrizes Dinâmicas](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/matriz)
+  - [#22  - Matrizes 3D](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/matriz)
