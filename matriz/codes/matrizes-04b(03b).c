@@ -8,7 +8,7 @@
 int main() {
   /* MATRIZ DINÂMICA 3D */
 
-  // DO CÓDIGO 'matrizes-04.c'
+  // DO CÓDIGO 'matrizes-03b.c'
 
   /* **************** ALOCAÇÃO DINÂMICA ******************* */
   /* ****************************************************** */

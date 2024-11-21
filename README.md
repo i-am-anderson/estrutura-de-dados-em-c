@@ -43,6 +43,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#21  - Matrizes Dinâmicas](https://www.youtube.com/watch?v=gSVtw4UbsGk)
   - [#22  - Matrizes 3D](https://www.youtube.com/watch?v=omIcgYLbzFI)
   - [#23  - Desalocando Matrizes Dinâmicas](https://www.youtube.com/watch?v=KRIHw08TdAk)
+  - [#24  - Matrizes Exercícios](https://www.youtube.com/watch?v=xmMq8pu90Lk)
 
 ---
 
@@ -80,3 +81,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#21  - Matrizes Dinâmicas](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/matriz)
   - [#22  - Matrizes 3D](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/matriz)
   - [#23  - Desalocando Matrizes Dinâmicas](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/matriz)
+  - [#24  - Matrizes Exercícios](https://github.com/Anderson-X-Araujo/estrutura-de-dados-em-c/tree/main/matriz)
