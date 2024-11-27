@@ -45,6 +45,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#23  - Desalocando Matrizes Dinâmicas](https://www.youtube.com/watch?v=KRIHw08TdAk)
   - [#24  - Matrizes Exercícios](https://www.youtube.com/watch?v=xmMq8pu90Lk)
   - [#25  - Row e Column Major Order](https://www.youtube.com/watch?v=iDB0lSW5zzA)
+  - [#26  - Row e Column Major Order na Prática](https://www.youtube.com/watch?v=fpIQ55mO4fo)
 
 ---
 
@@ -84,3 +85,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#23  - Desalocando Matrizes Dinâmicas](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
   - [#24  - Matrizes Exercícios](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
   - [#25  - Row e Column Major Order](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
+  - [#26  - Row e Column Major Order na Prática](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
