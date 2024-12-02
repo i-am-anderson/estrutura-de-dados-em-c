@@ -47,6 +47,9 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#25  - Row e Column Major Order](https://www.youtube.com/watch?v=iDB0lSW5zzA)
   - [#26  - Row e Column Major Order na Prática](https://www.youtube.com/watch?v=fpIQ55mO4fo)
 
+- **Struct**
+  - [#27  - Structs: Definição e Exemplos](https://www.youtube.com/watch?v=kKO1E63R_38)
+
 ---
 
 ## Arquivos
@@ -79,10 +82,13 @@ gcc arquivo.c -o build/arquivo && build/arquivo
   - [#19  - Vetores - Mais Exercícios](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/vetores-e-tipos-de-alocacao)
 
 - **Matrizes**
-  - [#20  - Matrizes Estáticas](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
-  - [#21  - Matrizes Dinâmicas](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
-  - [#22  - Matrizes 3D](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
-  - [#23  - Desalocando Matrizes Dinâmicas](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
-  - [#24  - Matrizes Exercícios](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
-  - [#25  - Row e Column Major Order](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
-  - [#26  - Row e Column Major Order na Prática](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matriz)
+  - [#20  - Matrizes Estáticas](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matrizes)
+  - [#21  - Matrizes Dinâmicas](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matrizes)
+  - [#22  - Matrizes 3D](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matrizes)
+  - [#23  - Desalocando Matrizes Dinâmicas](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matrizes)
+  - [#24  - Matrizes Exercícios](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matrizes)
+  - [#25  - Row e Column Major Order](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matrizes)
+  - [#26  - Row e Column Major Order na Prática](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/matrizes)
+
+- **Struct**
+  - [#27  - Structs: Definição e Exemplos](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/structs)
