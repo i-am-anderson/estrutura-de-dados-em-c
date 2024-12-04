@@ -50,6 +50,7 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 - **Struct**
   - [#27  - Structs: Definição e Exemplos](https://www.youtube.com/watch?v=kKO1E63R_38)
   - [#28  - Alocação Estática e Dinâmica de Structs](https://www.youtube.com/watch?v=v1zakuL-LHE)
+  - [#29  - Codificando um CRUD de Structs](https://www.youtube.com/watch?v=JzDZBa-yM_o)
 
 ---
 
@@ -94,3 +95,4 @@ gcc arquivo.c -o build/arquivo && build/arquivo
 - **Struct**
   - [#27  - Structs: Definição e Exemplos](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/structs)
   - [#28  - Alocação Estática e Dinâmica de Structs](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/structs)
+  - [#29  - Codificando um CRUD de Structs](https://github.com/i-am-anderson/estrutura-de-dados-em-c/tree/main/structs)
